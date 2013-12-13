@@ -1,12 +1,12 @@
 {
-  "name": "grunt-docco",
-  "description": "Grunt Docco plugin.",
-  "version": "0.3.0",
-  "homepage": "https://github.com/DavidSouther/grunt-docco",
+  "name": "grunt-doccoh",
+  "description": "Grunt Doccoh plugin.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mainyaa/grunt-doccoh",
   "author": {
-    "name": "David Souther",
-    "email": "davidsouther@gmail.com",
-    "url": "http://www.davidsouther.com"
+    "name": "mainyaa",
+    "email": "mainya@gmail.com",
+    "url": "https://github.com/mainyaa/"
   },
   "contributors": [
     "Asa Ayers <Asa.Ayers@Gmail.com>",
@@ -14,19 +14,20 @@
     "Diego Fernandez <diegof79@gmail.com>",
     "Ilya Radchenko <ilya@burstcreations.com>",
     "Sam Breed <sam@quickleft.com>",
-    "Simon Elliott <simon@papercreatures.com>"
+    "Simon Elliott <simon@papercreatures.com>",
+    "David Souther <davidsouther@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/DavidSouther/grunt-docco.git"
+    "url": "git://github.com/mainyaa/grunt-doccoh.git"
   },
   "bugs": {
-    "url": "https://github.com/DavidSouther/grunt-docco/issues"
+    "url": "https://github.com/mainyaa/grunt-doccoh/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/DavidSouther/grunt-docco/blob/master/LICENSE-MIT"
+      "url": "https://github.com/mainyaa/grunt-doccoh/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
@@ -36,7 +37,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "docco": "~0.6.2"
+    "doccoh": "~0.4.1"
   },
   "devDependencies": {
     "rimraf": "~2.0.2",

@@ -5,14 +5,14 @@ module.exports = function(grunt) {
 
     jshint: {
       grunt: ['Gruntfile.js'],
-      tasks: ['tasks/docco.js'],
+      tasks: ['tasks/doccoh.js'],
       tests: ['test/*.js'],
       options: {
         node: true
       }
     },
 
-    docco: {
+    doccoh: {
       tests: {
         src: ['test/**/*.js', 'test/**/*.coffee'],
         dest: "docs/"
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('test', ['clean:tests', 'docco', 'nodeunit:tests']);
+  grunt.registerTask('test', ['clean:tests', 'doccoh', 'nodeunit:tests']);
   grunt.registerTask('lint', ['jshint:grunt', 'jshint:tasks', 'jshint:tests']);
-  grunt.registerTask('default', ['lint', 'docco']);
+  grunt.registerTask('default', ['lint', 'doccoh']);
 };
